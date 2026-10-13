@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+void main()
+{
+    int i;
+    int L, C, R;
+
+    printf("LINE FOLLOWING ROBOT\n");
+    printf("--------------------\n");
+
+    for(i = 1; i <= 5; i++)
+    {
+        printf("\nSensor Reading %d\n", i);
+
+        printf("Enter Left Sensor (0/1): ");
+        scanf("%d", &L);
+
+        printf("Enter Center Sensor (0/1): ");
+        scanf("%d", &C);
+
+        printf("Enter Right Sensor (0/1): ");
+        scanf("%d", &R);
+
+        if(L == 0 && C == 1 && R == 0)
+        {
+            printf("Action: Move Forward\n");
+        }
+        else if(L == 1 && C == 0 && R == 0)
+        {
+            printf("Action: Turn Left\n");
+        }
+        else if(L == 0 && C == 0 && R == 1)
+        {
+            printf("Action: Turn Right\n");
+        }
+        else if(L == 0 && C == 0 && R == 0)
+        {
+            printf("Action: Stop - Line Not Detected\n");
+        }
+        else
+        {
+            printf("Action: Adjust Direction\n");
+        }
+    }
+}
