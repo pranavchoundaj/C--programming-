@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+    int n,rev;
+    clrscr();
+
+    printf("Enter a three-digit number: ");
+    scanf("%d",&n);
+
+    rev=(n%10)*100+(n/10%10)*10+n/100;
+
+    printf("Reverse = %d",rev);
+
+    getch();
+}
