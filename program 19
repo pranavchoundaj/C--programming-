@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int battery=20;
+
+    if(battery<30)
+        printf("Low Battery");
+    else
+        printf("Battery Normal");
+
+    return 0;
+}
