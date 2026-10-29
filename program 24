@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int moisture=25;
+    int temp=35;
+
+    if(moisture<40 && temp>=30)
+        printf("Pump ON");
+    else
+        printf("Pump OFF");
+
+    return 0;
+}
