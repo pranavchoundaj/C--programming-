@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int humidity=80;
+
+    if(humidity>70)
+        printf("High Humidity");
+    else
+        printf("Normal Humidity");
+
+    return 0;
+}
