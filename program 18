@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int level=80;
+
+    if(level>=90)
+        printf("Tank Full");
+    else
+        printf("Tank Filling");
+
+    return 0;
+}
