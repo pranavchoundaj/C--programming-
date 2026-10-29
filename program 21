@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int command=1;
+
+    if(command==1)
+        printf("Robotic Arm Move Up");
+    else
+        printf("Robotic Arm Stop");
+
+    return 0;
+}
