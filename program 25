@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int gas=75;
+
+    if(gas>50)
+        printf("Gas Leakage Alert");
+    else
+        printf("Safe Environment");
+
+    return 0;
+}
