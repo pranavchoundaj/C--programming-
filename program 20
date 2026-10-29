@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int signal=1;
+
+    if(signal==1)
+        printf("RED - STOP");
+    else if(signal==2)
+        printf("YELLOW - WAIT");
+    else
+        printf("GREEN - GO");
+
+    return 0;
+}
