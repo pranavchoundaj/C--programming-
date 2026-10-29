@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int space=0;
+
+    if(space==1)
+        printf("Parking Available");
+    else
+        printf("Parking Full");
+
+    return 0;
+}
